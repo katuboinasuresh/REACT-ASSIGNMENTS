@@ -1,0 +1,118 @@
+.site-container {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 75px;
+    border: 1px solid aliceblue;
+    margin-left: 25px;
+    padding: 10px;
+}
+.header .btn {
+    width: 4rem;
+    height: 2rem;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+.header span {
+    color: #ccc;
+}
+.header .icon{
+    height: 20px;
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 20px;
+    transform: scale(1.5);
+    top: 12px;
+    left: 10px;
+    color: #ccc;
+}
+.Information {
+    border: 1px solid #ccc;
+    margin-top: 25px;
+    height: 100pxpx;
+    width: 92%;
+    margin-left: 70px;
+}
+.Information .p1 {
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+.Information span {
+    color: #bbb;
+    font-weight: 0px;
+}
+.Information > div {
+    margin-top: 10px;
+}
+.Statusdetails .s1{
+    display: inline-block;
+    width: 30%;
+    margin-top: 25px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+.Statusdetails span {
+    font-weight: 0px;
+    color: #bbb;
+}
+.Statusdetails {
+    height: 100px;
+    width: 92%;
+    border: 1px solid #ccc;
+    margin-left: 70px;
+    margin-top: 25px;
+    background-color: aliceblue;
+}
+.update {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: black;
+    margin-right: 5px;
+}
+.Identity {
+    display: flex;
+    width: 92%;
+    height: 120px;
+    border: 1px solid #ccc;
+    margin-top: 25px;
+    margin-left: 70px;
+}
+.Identity img{
+    height: 90px;
+    width: 90px;
+    margin: 15px 0px;
+    margin-left: 40px;
+    margin-right: 5px;
+}
+.square{
+    height: 15px;
+    width: 15px;
+    border: 1px solid orange;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.i{
+    margin-left:15px ;
+}
+.i span{
+    font-weight: lighter;
+}
+.arro{
+    height: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 20px;
+    transform: scale(1.5);
+    top: 12px;
+    left: 10px;
+    color: #ccc;
+    margin-left: 1000px;
+}
