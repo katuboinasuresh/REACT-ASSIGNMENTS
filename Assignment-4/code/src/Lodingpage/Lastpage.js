@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Header from './components1/Header';
-import Post from './components1/Post';
+import Header from '../components/Header';
+import Post from '../components/Post';
 const Postview = () => {
     const [posts, setPosts] = useState([]);
     const setPostsAsync = async () => {
